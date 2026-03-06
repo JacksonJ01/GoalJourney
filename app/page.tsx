@@ -1,12 +1,12 @@
 import { supabase } from "@/lib/supabase";
 
 export default async function Home() {
-  const { data, error } = await supabase
-    .from("profiles")
-    .select("*");
+  // const { data, error } = await supabase
+  //   .from("profiles")
+  //   .select("*");
 
-  console.log("DATA:", data);
-  console.log("ERROR:", error);
+  // console.log("DATA:", data);
+  // console.log("ERROR:", error);
 
   return (
     <div className="p-10">
